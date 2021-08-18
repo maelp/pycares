@@ -320,7 +320,7 @@ class DNSTest(unittest.TestCase):
         self.assertNoError(self.errorno)
         for r in self.result:
             self.assertEqual(type(r), pycares.ares_query_txt_result)
-            self.assertIsInstance(r.text, bytes)  # it's ASCII
+            self.assertIsInstance(r.text, bytes)
 
     def test_query_txt_bytes2(self):
         self.result, self.errorno = None, None
