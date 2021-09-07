@@ -1,6 +1,10 @@
+Version 5.0.0
+=============
+- doc: update ChangeLog and README
+
 Version 4.0.0
 =============
-- doc: uppdate README
+- doc: update README
 - core: add support for CAA queries
 - core: add support for getaddrinfo()
 - doc: update README
